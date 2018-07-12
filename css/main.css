@@ -1,0 +1,199 @@
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.with-hidden.is-show .is-hidden {
+  display: block;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.my-btn {
+  font-size: 25px;
+  color: #333;
+  position: absolute;
+  right: 20px;
+  top: 8px;
+}
+
+.my-btn-pos {
+  top: 8px;
+  right: 20px;
+}
+
+a {
+  color: #f48235;
+}
+
+.fields-active {
+  transform: translateX(0%) !important;
+}
+
+.fields {
+  width: 320px;
+  border: 25px solid #01477c;
+  font-size: 14px;
+  padding: 18px;
+  position: relative;
+  transition: 0.5s;
+  transform: translateX(-110%);
+}
+.fields label {
+  cursor: pointer;
+}
+.fields .title {
+  color: #0164af;
+  padding-left: 8px;
+  user-select: none;
+}
+.fields .price-title {
+  margin-bottom: 10px;
+}
+.fields .price-value {
+  border: 1px solid #eee;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  font-weight: 600;
+}
+.fields .brands-list li {
+  margin: 0;
+  padding: 0;
+}
+.fields .brands-list a {
+  color: #333;
+}
+.fields .brands-list a:hover {
+  text-decoration: none;
+}
+.fields .season-list li {
+  margin: 5px 7px 5px 0;
+}
+.fields .price-ui {
+  padding-left: 10px;
+}
+.fields .price-ui input {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #eee;
+  border-bottom: 0;
+  font-weight: 800;
+  height: 35px;
+}
+.fields #group4 ul {
+  margin-bottom: 10px;
+}
+.fields .showAll {
+  margin-left: 10px;
+  color: #5a88ab;
+  transition: 0.3s;
+  font-size: 12px;
+  user-select: none;
+}
+.fields .showAll:hover {
+  text-decoration: none;
+  color: #476e8b;
+}
+.fields #slider.noUi-target {
+  background: #f48235;
+  border-radius: 0;
+  box-shadow: none;
+}
+.fields #slider.noUi-horizontal {
+  height: 4px;
+}
+.fields #slider.noUi-horizontal .noUi-handle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 2px #afcbdc, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
+  border: 5px solid #f48235;
+}
+.fields #slider.noUi-horizontal .noUi-handle::before, .fields #slider.noUi-horizontal .noUi-handle::after {
+  content: none;
+}
+.fields #slider.noUi-handle.noUi-handle-lower {
+  outline: none;
+}
+.fields #slider.noUi-horizontal .noUi-handle {
+  right: -6px;
+}
+.fields .btn-default {
+  background: #f48235;
+  border: none;
+  display: block;
+  width: 100%;
+  transition: 0.5s;
+  margin-bottom: 10px;
+  border-radius: 0;
+}
+.fields .btn-default:hover {
+  background: #f3731d;
+}
+.fields .btn-white {
+  background: #eee;
+  border: none;
+  display: block;
+  width: 100%;
+  color: #f48235;
+  border-radius: 0;
+  position: relative;
+  font-weight: 100;
+}
+.fields .btn-white svg {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+}
+.fields .btn-white:hover {
+  background: #e1e1e1;
+  color: #f48235;
+}
+.fields .btn-white:hover svg {
+  animation: rotate 1.3s infinite;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(180deg);
+  }
+}
+.radio-list {
+  position: relative;
+}
+.radio-list [type='radio'],
+.radio-list [type='checkbox'] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+.radio-list label {
+  padding: 3px 8px;
+}
+.radio-list input[type='radio']:checked ~ label,
+.radio-list input[type='checkbox']:checked ~ label {
+  color: #fff;
+  background-color: #0164af;
+}
+
+.btn-show {
+  background: #f48235;
+  border: none;
+  width: 200px;
+  border-radius: 0;
+  outline: none;
+  color: white;
+}
+.btn-show:focus {
+  outline: none;
+}
+.btn-show:hover {
+  background: #e9660d;
+}
